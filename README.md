@@ -85,3 +85,4 @@ mydata = pd.DataFrame()
 for t in tickers:
     mydata[t] = get_historical_data(t, start, end, output_format = 'pandas', token=api_key)['close']
 ```
+
