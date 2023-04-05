@@ -7,16 +7,17 @@
 
 ## Table of Content
 
-**1. NSE - Calculating and Comparing Rates of Return in Python**
+
+1. NSE - Calculating and Comparing Rates of Return in Python
  - INFOSYS (NSE) - Simple Returns
  - INFOSYS (NSE) - Logarithmic Returns
-  - Calculating the Risk of a Security - INFY, HINDALCO
-   - NIFTY - Logarithmic Returns
+ - Calculating the Risk of a Security - INFY, HINDALCO
+ - NIFTY - Logarithmic Returns
 
-**2. USE Stocks - Calculating and Comparing Rates of Return in Python**
+2. USE Stocks - Calculating and Comparing Rates of Return in Python
  - Microsoft - Simple Returns
-  - Microsoft - Logarithmic Returns
-   - Calculating a Portfolio of Securities' Rate of Return - PG, MSFT, F, GE
+ - Microsoft - Logarithmic Returns
+ - Calculating a Portfolio of Securities' Rate of Return - PG, MSFT, F, GE
 ## Project Description
 
 Calculating and Comparing Rates of Return in Python:
