@@ -18,6 +18,7 @@
  - Microsoft - Simple Returns
  - Microsoft - Logarithmic Returns
  - Calculating a Portfolio of Securities' Rate of Return - PG, MSFT, F, GE
+
 ## Project Description
 
 Calculating and Comparing Rates of Return in Python:
@@ -42,6 +43,7 @@ Stock['simple_return'] = np.log(Stock['close'] / Stock['close'].shift(1))
 Formula:
 pfolio = str(round(np.dot(annual_returns, weights),4)*100) + '%'
 ```
+
 ## Installation
 
 To install iexfinance:
@@ -58,6 +60,7 @@ url: <https://nsepy.xyz/>
 ```bash
 pip install nsepy
 ```
+
 ## Deployment
 
 To deploy this project run
