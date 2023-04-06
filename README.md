@@ -23,21 +23,21 @@
 
 Calculating and Comparing Rates of Return in Python:
 The rate of return of an investment is the percentage change in its value over a specific period of time. This project aims to calculate the rate of return of an investment in PYTHON using:
- - Simple Returns: The most common way of calculating the rate of return of a security. It assume that the investment grows at a constant rate over the period, ignoring any changes in the value of the investment during the period.
+ - **Simple Returns:** The most common way of calculating the rate of return of a security. It assume that the investment grows at a constant rate over the period, ignoring any changes in the value of the investment during the period.
 
 ```bash
 Formula:
 Stock['simple_return'] = (Stock['close'] / Stock['close'].shift(1)) - 1
 ```
 
- - Logarithmic Returns: Assume that the investment grows at a variable rate over the period, taking into account any changes in the value of the investment during the period.
+ - **Logarithmic Returns:** Assume that the investment grows at a variable rate over the period, taking into account any changes in the value of the investment during the period.
 
  ```bash
 Formula:
 Stock['simple_return'] = np.log(Stock['close'] / Stock['close'].shift(1))
 ```
 
- - Calculating a Portfolio of Securities' Rate of Return: To calculate the rate of return of a portfolio of securities, you need to take into account the weights of each security in the portfolio.
+ - **Calculating a Portfolio of Securities' Rate of Return:** To calculate the rate of return of a portfolio of securities, you need to take into account the weights of each security in the portfolio.
 
   ```bash
 Formula:
@@ -84,7 +84,7 @@ To deploy this project run
 
 Creating a portfolio:
 ```bash
-tickers = ['PG', 'MSFT', 'F', 'GE']
+tickers = ['Stocks']
 mydata = pd.DataFrame()
 for t in tickers:
     mydata[t] = get_historical_data(t, start, end, output_format = 'pandas', token=api_key)['close']
