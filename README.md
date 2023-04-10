@@ -12,6 +12,7 @@
   - INFOSYS (NSE) - Simple Returns
   - INFOSYS (NSE) - Logarithmic Returns
   - Calculating the Risk of a Security - INFY, HINDALCO
+  - Calculating the Return of a Portfolio of Securities - TATAMOTORS, INFY, ICICIBANK, HINDALCO
   - NIFTY - Logarithmic Returns
 
 **2. USE Stocks - Calculating and Comparing Rates of Return in Python**
