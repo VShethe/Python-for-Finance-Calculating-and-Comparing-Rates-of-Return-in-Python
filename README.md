@@ -38,6 +38,11 @@ Formula:
 Stock['simple_return'] = np.log(Stock['close'] / Stock['close'].shift(1))
 ```
 
+## Calculating the Return of a Portfolio of Securities Graph:
+
+![image](https://user-images.githubusercontent.com/128286364/231108491-f9e8e3ce-683e-4e21-82d2-1c4755b4acac.png)
+
+
  - **Calculating a Portfolio of Securities' Rate of Return:** To calculate the rate of return of a portfolio of securities, you need to take into account the weights of each security in the portfolio.
 
   ```bash
